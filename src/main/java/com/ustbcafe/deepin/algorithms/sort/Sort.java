@@ -20,7 +20,7 @@ public class Sort {
     public static int partition(int array[], int low, int high){
         //
         if(array==null||array.length==0||low<0||high>array.length-1)
-             throw new RuntimeException("Invalid parameters");
+             throw new IllegalArgumentException("Invalid parameters");
         int i=low;
         int j=high;
         int pivot=array[low];
@@ -41,7 +41,7 @@ public class Sort {
     public static void recursiveFastSort(int array[],int low,int high){
 
         //递归出口，只有一个元素，
-        if(low<=high)
+        if(low>=high)
             return ;
         int i= partition(array,low,high);
             recursiveFastSort(array,low,i-1);

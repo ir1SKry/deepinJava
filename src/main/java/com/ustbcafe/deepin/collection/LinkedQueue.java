@@ -1,11 +1,13 @@
 package com.ustbcafe.deepin.collection;
 
+import java.io.Serializable;
+
 /**
  * Created by Rudy Steiner on 2017/5/3.
  */
-public class LinkedQueue<T> implements IQueue<T>{
-    ListNode<T> head,last;
-
+public class LinkedQueue<T> implements IQueue<T> ,Serializable{
+    private ListNode<T> head,last;
+    private int len;
     @Override
     public void enqueue(T e) {
        ListNode<T> newNode=new ListNode<T>(e);
@@ -16,6 +18,7 @@ public class LinkedQueue<T> implements IQueue<T>{
             last.next=newNode;
             last=last.next;
         }
+        len++;
     }
 
     @Override
@@ -24,10 +27,10 @@ public class LinkedQueue<T> implements IQueue<T>{
         if(head!=null) {
             result = head.val;
             head = head.next;
+            len--;
         }
         return result;
     }
-
     @Override
     public T peek() {
         T result=null;

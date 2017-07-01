@@ -20,7 +20,8 @@ public class SortTest extends TestCase{
 //        int[] data={9,8,7,6,5,5,7,4,3,2,3,2,1};
 //        int[] expected={1,2,2,3,3,4,5,5,6,7,7,8,9};
         //Sort.bubbleSort2(data);
-        HeapSort.sort(data);
+        Sort.recursiveFastSort(data,0,data.length-1);
+        //HeapSort.sort(data);
         System.out.println(Arrays.toString(data));
         Assert.assertEquals(Arrays.toString(expected),Arrays.toString(data));
     }
