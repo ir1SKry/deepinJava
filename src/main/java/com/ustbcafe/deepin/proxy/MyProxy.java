@@ -10,6 +10,7 @@ public class MyProxy {
         System.out.println(param);
     }
 
+     @Monitor(key=Monitor.Key.API)
     public void SayHiDefault(String name) {
         System.out.println("Hi, " + name);
     }

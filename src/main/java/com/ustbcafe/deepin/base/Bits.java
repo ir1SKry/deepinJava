@@ -1,5 +1,7 @@
 package com.ustbcafe.deepin.base;
 
+import com.ustbcafe.deepin.proxy.Monitor;
+
 /**
  * Created by Rudy Steiner on 2017/3/18.
  */
@@ -35,6 +37,7 @@ public class Bits {
     }
 
     // not a good dp
+    @Monitor(key = Monitor.Key.API)
     public int optimizeReverseBits(int n) {
         int firstMask=1;
         int lastMask=1<<31;
