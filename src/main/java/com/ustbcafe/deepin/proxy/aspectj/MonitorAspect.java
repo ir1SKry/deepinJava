@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 
     @Pointcut("@annotation(monitor)")
-    public void monitorAspect(){
+    public void monitorAspect(Monitor monitor){
 
     }
     @Before("@annotation(monitor) &&execution(* *(..))")
@@ -39,13 +39,13 @@ import java.util.Arrays;
         // 可以修改参数和结果
        return  8;
     }
-   @AfterThrowing(pointcut = "@annotation(monitor) &&execution(* *(..))",throwing ="ex" )
-   public void afterThrowing(JoinPoint point){
-       System.out.println("result:exception signature "+point.getSignature()+",target"+point.getTarget());
-    }
+//   @AfterThrowing(pointcut = "@annotation(monitor) &&execution(* *(..))",throwing ="Exception" )
+//   public void afterThrowing(JoinPoint point){
+//       System.out.println("result:exception signature "+point.getSignature()+",target"+point.getTarget());
+//    }
 
     @AfterReturning("@annotation(monitor) &&execution(* *(..))")
-    public void afterReturning(JoinPoint point){
+    public void afterReturning(JoinPoint point,Monitor monitor){
 
     }
 
