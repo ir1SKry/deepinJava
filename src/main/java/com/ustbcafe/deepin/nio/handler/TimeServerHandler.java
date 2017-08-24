@@ -13,16 +13,16 @@ public class TimeServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
        // super.channelRead(ctx, msg);
-        final ByteBuf time=ctx.alloc().buffer();
-        time.writeInt((int) System.currentTimeMillis());
-         final ChannelFuture f=ctx.writeAndFlush(time);
-          f.addListener(new ChannelFutureListener() {
-              @Override
-              public void operationComplete(ChannelFuture future) throws Exception {
-                    assert  f==future;
-                    ctx.close();
-              }
-          });
+//        final ByteBuf time=ctx.alloc().buffer();
+//        time.writeInt((int) System.currentTimeMillis());
+//         final ChannelFuture f=ctx.writeAndFlush(time);
+//          f.addListener(new ChannelFutureListener() {
+//              @Override
+//              public void operationComplete(ChannelFuture future) throws Exception {
+//                    assert  f==future;
+//                    ctx.close();
+//              }
+//          });
     }
 
     @Override

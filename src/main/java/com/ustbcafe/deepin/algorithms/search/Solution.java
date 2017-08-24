@@ -27,6 +27,18 @@ public class Solution {
         }
         return -1;
     }
+    public int binarySearch(int[] data,int a,int low,int high){
+        if(low>high)
+            return -1;
+        int mid= low+(high-low)/2;
+            if(data[mid]==a){
+                return  mid;
+            }else if(data[mid]<a){
+                return binarySearch(data,a,mid+1,high);
+            }else{
+                return binarySearch(data,a,low,mid-1);
+            }
+    }
     public int minAtSpinArray(int data[]){
         if(data==null||data.length==0)
             throw new RuntimeException("Invalid Exception");
@@ -62,8 +74,8 @@ public class Solution {
 
         int[] a={3,12,18,20,32,55,60,68,80,86,90,100};
        // int[] a=new int[0];
-        int k=101;
-        int pos=new Solution().binarySearch(a,k);
+        int k=100;
+        int pos=new Solution().binarySearch(a,k,0,a.length-1);
         System.out.println(Arrays.toString(a));
         if(pos>=0)
            System.out.println( k+" at position:"+pos);
