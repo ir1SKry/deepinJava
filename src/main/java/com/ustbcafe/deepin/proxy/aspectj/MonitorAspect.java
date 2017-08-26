@@ -36,7 +36,7 @@ import java.util.Arrays;
         System.out.println(Arrays.toString(args) + ",monitor aspect");
         Object result= point.proceed(point.getArgs());
         System.out.println("result:"+result);
-        // 可以修改参数和结果
+
        return  8;
     }
 //   @AfterThrowing(pointcut = "@annotation(monitor) &&execution(* *(..))",throwing ="Exception" )

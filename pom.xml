@@ -96,7 +96,9 @@
   </plugins>
      <resources>
        <resource>
-
+         <directory>
+           src/
+         </directory>
              <includes>
                <include>**/*.txt</include>
              </includes>

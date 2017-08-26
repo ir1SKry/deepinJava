@@ -65,7 +65,6 @@ public class Dijkstra {
             visited[minInd]=true;
             for(int k=1;k<=N;k++){
                 if(!visited[k]&&shortest[k]>=shortest[minInd]+costMatrix[minInd][k]){
-                    // ¹ý minInd µã£¬ ¸ü¶Ì
                     shortest[k]=shortest[minInd]+costMatrix[minInd][k];
                 }
             }
