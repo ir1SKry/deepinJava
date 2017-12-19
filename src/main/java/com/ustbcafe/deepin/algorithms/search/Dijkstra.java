@@ -29,6 +29,7 @@ public class Dijkstra {
                 }
             }
             for(int i=0;i<M;i++){
+
                 int row=in.nextInt();
                 int column=in.nextInt();
                 int cost=in.nextInt();
@@ -42,6 +43,7 @@ public class Dijkstra {
             }
             int cost=time(N,costMatrix,shortest,visited,start);
             System.out.println("form start: "+start+" to "+N+" spend "+cost);
+
         }
     }
     /*
@@ -52,24 +54,29 @@ public class Dijkstra {
      *
      * */
     public static int time(int N,int[][] costMatrix,int[] shortest, boolean[] visited,int start){
+
         visited[start]=true;
+
         for(int i=2;i<=N;i++){
             int min=Integer.MAX_VALUE;
             int minInd=0;
             for(int j=1;j<=N;j++) {
                 if (!visited[i] &&costMatrix[start][i]<min){
+
                     min=costMatrix[start][i];
                     minInd=i;
+
                 }
             }
             visited[minInd]=true;
             for(int k=1;k<=N;k++){
                 if(!visited[k]&&shortest[k]>=shortest[minInd]+costMatrix[minInd][k]){
-                    // ¹ý minInd µã£¬ ¸ü¶Ì
+                    // ï¿½ï¿½ minInd ï¿½ã£¬ ï¿½ï¿½ï¿½
                     shortest[k]=shortest[minInd]+costMatrix[minInd][k];
                 }
             }
         }
+
         return shortest[N];
     }
 }
