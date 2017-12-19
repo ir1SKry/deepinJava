@@ -29,7 +29,7 @@
         <module name="deepin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="deepin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
