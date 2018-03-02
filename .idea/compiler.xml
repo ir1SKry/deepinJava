@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AjcSettings">
-    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.8.2/aspectjtools-1.8.2.jar" />
-  </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -29,8 +25,8 @@
         <module name="deepin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="deepin" target="1.8" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="deepin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

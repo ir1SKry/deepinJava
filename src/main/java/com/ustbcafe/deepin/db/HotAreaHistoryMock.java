@@ -16,9 +16,9 @@ import java.util.logging.Logger;
  */
 public class HotAreaHistoryMock {
     public static void main(String[] args){
-         // System.out.println("aa");
+        // System.out.println("aa");
         // long start= System.currentTimeMillis();
-         //mockInsertSku(1000,16000L);
+        //mockInsertSku(1000,16000L);
 //         long end=System.currentTimeMillis();
 //         System.out.println("time elapse:"+(end-start)+" ms ");
         //insertHotarea(13000L,17000L);
@@ -28,17 +28,17 @@ public class HotAreaHistoryMock {
         Calendar calendar=Calendar.getInstance();
         calendar.set(Calendar.YEAR,2017);
         calendar.set(Calendar.MONTH,11);
-        calendar.set(Calendar.DAY_OF_MONTH,13);
-        calendar.set(Calendar.HOUR_OF_DAY,16);
+        calendar.set(Calendar.DAY_OF_MONTH,22);
+        calendar.set(Calendar.HOUR_OF_DAY,9);
         calendar.set(Calendar.MINUTE, 5);
         calendar.set(Calendar.SECOND, 0);
         Long time=calendar.getTimeInMillis();
         //System.out.println(time);
-        // mockInsertHotareaRealTime(1000L, 6036L, time);
+         mockInsertHotareaRealTime(1L, 100L, time);
     }
     /**
-     *   @num  批量插入的数量
-     *   @param baseSkuId 起始SkuId
+     *   @num
+     *   @param baseSkuId SkuId
      *   about insert 1000 record in 2.5s
      * **/
     public static void mockInsertSku(int num,Long baseSkuId){
