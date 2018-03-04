@@ -1,6 +1,6 @@
 package com.ustbcafe.deepin.algorithms.string;
 
-import com.ustbcafe.deepin.proxy.Test;
+
 import com.ustbcafe.deepin.string.ClassifyString;
 import junit.framework.Assert;
 import junit.framework.TestCase;

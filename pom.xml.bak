@@ -94,7 +94,7 @@
         </executions>
       </plugin>
   </plugins>
-
+<<<<<<< HEAD
      <resources>
        <resource>
          <directory>
@@ -105,6 +105,8 @@
              </includes>
        </resource>
      </resources>
+=======
 
+>>>>>>> 2c697cf45b4d5d78bb305e5fd19c0b39570813e2
   </build>
 </project>

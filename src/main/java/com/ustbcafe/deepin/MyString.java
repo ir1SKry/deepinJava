@@ -1,7 +1,4 @@
 package com.ustbcafe.deepin;
-
-import java.util.StringTokenizer;
-
 /**
  * Created by Rudy Steiner on 2016/12/23.
  */
@@ -19,5 +16,10 @@ public  class MyString {
 //      }
       public  int length(){
        return value.length;
+      }
+
+
+      public void  encodeLenTest(){
+
       }
 }
