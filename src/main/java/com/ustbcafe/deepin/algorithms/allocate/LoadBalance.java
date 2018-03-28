@@ -73,6 +73,8 @@ public class LoadBalance implements Associate<Client,Broker> {
              brokers.get(j).getLefts().add(clients.get(i));
          }
          printBroker(brokers);
+         double d=(double) clients.size()/brokers.size();
+         k=Math.max((int)Math.ceil(d),k);
          // rule 1
          cluster(brokers, k);
          // rule 2
@@ -128,6 +130,7 @@ public class LoadBalance implements Associate<Client,Broker> {
      }
       public void ruleCheck(List<Client> clients,List<Broker> brokers,int k){
           int av=brokers.size()*k/clients.size();
+
           List<Integer>  noneBrokerList=new ArrayList<>();
           List<Integer>  moreBrokerList=new ArrayList<>();
           Client c;
@@ -224,7 +227,7 @@ public class LoadBalance implements Associate<Client,Broker> {
             client.setId(i);
             clients.add(client);
         }
-        for(int i=bStart;i<bStart+10;i++){
+        for(int i=bStart;i<bStart+ 10;i++){
             broker=new Broker();
             broker.setId(i);
             brokers.add(broker);
