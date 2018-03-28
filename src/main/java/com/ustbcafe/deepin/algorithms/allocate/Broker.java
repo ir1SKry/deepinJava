@@ -1,5 +1,7 @@
 package com.ustbcafe.deepin.algorithms.allocate;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.List;
 
 /**
@@ -8,8 +10,11 @@ import java.util.List;
 public class Broker {
     private long id;
     private long hashId;
+    @JSONField(serialize = false)
     private List<Client> clients;
+    @JSONField(serialize = false)
     private List<Client> lefts;
+    @JSONField(serialize = false)
     private List<Client> rights;
     public long getId() {
         return id;

@@ -10,7 +10,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.log4j.Logger;
+
 
 
 /**
@@ -58,18 +63,18 @@ public class LoadBalance implements Associate<Client,Broker> {
              if(j==brokers.size()&&i<clientSize){
                  for(int kk=i;kk<clientSize;kk++){
                      if(brokers.get(0).getLefts()==null)
-                         brokers.get(0).setLefts(new ArrayList<>());
+                         brokers.get(0).setLefts(new ArrayList<Client>());
                      brokers.get(0).getLefts().add(clients.get(kk));
                  }
                  break;
              }
              if(brokers.get(j).getLefts()==null)
-                 brokers.get(j).setLefts(new ArrayList<>());
+                 brokers.get(j).setLefts(new ArrayList<Client>());
              brokers.get(j).getLefts().add(clients.get(i));
          }
          printBroker(brokers);
          // rule 1
-         cluster(brokers,k);
+         cluster(brokers, k);
          // rule 2
          ruleCheck(clients,brokers,k);
          System.out.println("test");
@@ -99,16 +104,16 @@ public class LoadBalance implements Associate<Client,Broker> {
          }
      }
      public void amend(List<Broker> brokers,Broker current,Comparator<Client> c,int left,int right, int k){
-               if(current.getClients().size()>=k||left<0||right>=brokers.size()) {
+               if(current.getClients().size()>=k||(left<0&&right>=brokers.size())) {
                    System.out.println("broker id:"+current.getId()+",amend finish!");
                    return;
                }
                int remain=k-current.getClients().size();
                  List<Client> cluster=new ArrayList<>();
-                if( brokers.get(left).getLefts()!=null&&brokers.get(left).getLefts().size()>0)
+                if(left>=0&&brokers.get(left).getLefts()!=null&&brokers.get(left).getLefts().size()>0)
                      cluster.addAll(brokers.get(left).getLefts());
-                if( brokers.get(left).getLefts()!=null&&brokers.get(left).getLefts().size()>0)
-                    cluster.addAll(brokers.get(left).getLefts());
+                if( right<brokers.size()&&brokers.get(right).getLefts()!=null&&brokers.get(right).getLefts().size()>0)
+                    cluster.addAll(brokers.get(right).getLefts());
                 if(cluster.size()>remain){
                      Collections.sort(cluster,c);
                      List<Client> cs=cluster.subList(0,remain);
@@ -137,7 +142,7 @@ public class LoadBalance implements Associate<Client,Broker> {
           int moreBrokerIndex=0;
           for(Integer index:noneBrokerList){
               if(clients.get(index).getBrokers()==null)
-                  clients.get(index).setBrokers(new ArrayList<>());
+                  clients.get(index).setBrokers(new ArrayList<Broker>());
                int ind=moreBrokerList.get(moreBrokerIndex);
                Broker b=clients.get(ind).getBrokers().remove(0);
                associate(clients.get(index),b);
@@ -191,13 +196,30 @@ public class LoadBalance implements Associate<Client,Broker> {
 
     public static  void main(String[] args){
         LoadBalance lb=new LoadBalance();
-        List<Client> clients=new ArrayList<>();
-        List<Broker> brokers=new ArrayList<>();
-        int cStart=20;
-        int bStart=70;
+        int k=2;
+        List<Client> oldClients=new ArrayList<>();
+        List<Broker> oldBrokers=new ArrayList<>();
+            lb.initRand(oldClients,oldBrokers,10,40,70);
+            lb.balance(oldClients, oldBrokers, k);
+        String result1= JSON.toJSONString(oldClients, SerializerFeature.DisableCircularReferenceDetect);
+        List<Client>            clients=new ArrayList<>();
+        List<Broker>            brokers=new ArrayList<>();
+                    lb.initRand(clients, brokers, 10, 42, 70);
+                    lb.balance(clients, brokers, k);
+
+        String result2= JSON.toJSONString(clients, SerializerFeature.DisableCircularReferenceDetect);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result1.equals(result2));
+        String  result=AllocationEvaluation.evaluation(oldClients,clients);
+        System.out.println(result);
+        System.out.println(JSON.toJSONString(AllocationEvaluation.connectionMap(oldClients).values()));
+        System.out.println(JSON.toJSONString(AllocationEvaluation.connectionMap(clients).values()));
+    }
+    public void initRand(List<Client> clients,List<Broker> brokers,int cStart,int cEnd,int bStart){
         Client client;
         Broker broker;
-        for(int i=cStart;i<cStart+10;i++){
+        for(int i=cStart;i<cEnd;i++){
             client=new Client();
             client.setId(i);
             clients.add(client);
@@ -207,12 +229,6 @@ public class LoadBalance implements Associate<Client,Broker> {
             broker.setId(i);
             brokers.add(broker);
         }
-        lb.balance(clients,brokers,2);
-        int m=15;
-        for(long i=0;i<m;i++){
-            System.out.println(lb.md5HashingAlg(i));
-        }
-
     }
     public void printBroker(List<Broker> brokers){
         for(Broker b:brokers){
@@ -224,7 +240,7 @@ public class LoadBalance implements Associate<Client,Broker> {
     public void associate(List<Client> clients, Broker broker) {
         for(Client c:clients) {
             if (c.getBrokers() == null)
-                c.setBrokers(new ArrayList<>());
+                c.setBrokers(new ArrayList<Broker>());
             c.getBrokers().add(broker);
         }
     }
@@ -232,7 +248,7 @@ public class LoadBalance implements Associate<Client,Broker> {
     @Override
     public void associate(Client client, Broker broker) {
         if (client.getBrokers() == null)
-            client.setBrokers(new ArrayList<>());
+            client.setBrokers(new ArrayList<Broker>());
         client.getBrokers().add(broker);
     }
 }

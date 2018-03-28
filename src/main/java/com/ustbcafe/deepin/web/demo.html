@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script class="jquery library" src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+<body>
+   <p>dfdf</p>
+
+
+</body>
+<script>
+$(document).ready(function(){
+    console.log('dfds');
+    $.post("192.168.166.40:9090/1.0/auth", {"user":"logbookInnerMQ","password":"A867C875","app":"logbookInnerMQ","topic":"hislog_sync_mq"},
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+});
+</script>
+</html>
