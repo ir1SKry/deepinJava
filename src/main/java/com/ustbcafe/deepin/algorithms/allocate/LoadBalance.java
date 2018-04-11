@@ -2,18 +2,10 @@ package com.ustbcafe.deepin.algorithms.allocate;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.log4j.Logger;
 
 
@@ -78,8 +70,7 @@ public class LoadBalance implements Associate<Client,Broker> {
          // rule 1
          cluster(brokers, k);
          // rule 2
-         ruleCheck(clients,brokers,k);
-         System.out.println("test");
+         ruleCheck(clients, brokers, k);
      }
 
      public void cluster(List<Broker> brokers,int k){
@@ -176,6 +167,8 @@ public class LoadBalance implements Associate<Client,Broker> {
          }
      }
     /**
+     *
+     * jump consistent hash ,FNV hash
      * Calculates the Ketama hash value for a string
      * @param key
      * @return
@@ -202,14 +195,15 @@ public class LoadBalance implements Associate<Client,Broker> {
         int k=2;
         List<Client> oldClients=new ArrayList<>();
         List<Broker> oldBrokers=new ArrayList<>();
-            lb.initRand(oldClients,oldBrokers,10,40,70);
+            lb.initRand(oldClients,oldBrokers,10,30,70);
             lb.balance(oldClients, oldBrokers, k);
-        String result1= JSON.toJSONString(oldClients, SerializerFeature.DisableCircularReferenceDetect);
         List<Client>            clients=new ArrayList<>();
         List<Broker>            brokers=new ArrayList<>();
                     lb.initRand(clients, brokers, 10, 42, 70);
                     lb.balance(clients, brokers, k);
 
+
+        String result1= JSON.toJSONString(oldClients, SerializerFeature.DisableCircularReferenceDetect);
         String result2= JSON.toJSONString(clients, SerializerFeature.DisableCircularReferenceDetect);
         System.out.println(result1);
         System.out.println(result2);
@@ -235,7 +229,7 @@ public class LoadBalance implements Associate<Client,Broker> {
     }
     public void printBroker(List<Broker> brokers){
         for(Broker b:brokers){
-          System.out.println("["+Arrays.toString(b.getLefts()==null?new Object[0]:b.getLefts().toArray())+":"+b.getHashId()+"];");
+          System.out.println("{clientId:"+Arrays.toString(b.getLefts()==null?new Object[0]:b.getLefts().toArray())+",brokerId:"+b.getHashId()+"}");
         }
     }
 
