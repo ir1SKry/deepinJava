@@ -1,8 +1,6 @@
 package com.ustbcafe.deepin.algorithms;
 
 
-import com.ustbcafe.deepin.algorithms.virtual.Broker;
-import com.ustbcafe.deepin.algorithms.virtual.Client;
 import com.ustbcafe.deepin.algorithms.virtual.KetamaConsistentHash;
 import org.junit.Test;
 

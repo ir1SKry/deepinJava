@@ -1,6 +1,7 @@
 package com.ustbcafe.deepin.algorithms.virtual;
 
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Rudy Steiner on 2018/3/24.
@@ -8,8 +9,10 @@ import java.util.List;
 public class Client {
     private String id;
     private long hashId;
-    private List<Broker> brokers;
-
+    private Set<Broker> brokers;
+    public Client(){
+        brokers=new HashSet<Broker>();
+    }
     public String getId() {
         return id;
     }
@@ -18,11 +21,11 @@ public class Client {
         this.id = id;
     }
 
-    public List<Broker> getBrokers() {
+    public Set<Broker> getBrokers() {
         return brokers;
     }
 
-    public void setBrokers(List<Broker> brokers) {
+    public void setBrokers(Set<Broker> brokers) {
         this.brokers = brokers;
     }
 
@@ -37,5 +40,10 @@ public class Client {
     @Override
     public String toString() {
         return id;
+    }
+
+    @Override
+    public int hashCode() {
+        return id==null?0:id.hashCode();
     }
 }

@@ -1,8 +1,9 @@
 package com.ustbcafe.deepin.algorithms.virtual;
 
-import com.alibaba.fastjson.annotation.JSONField;
 
-import java.util.List;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Rudy Steiner on 2018/3/24.
@@ -10,13 +11,11 @@ import java.util.List;
 public class Broker {
     private String id;
     private long hashId;
-    @JSONField(serialize = false)
-    private List<Client> clients;
-    @JSONField(serialize = false)
-    private List<Client> lefts;
-    @JSONField(serialize = false)
-    private List<Client> rights;
+    private Set<Client> clients;
 
+    public Broker(){
+        this.clients=new HashSet();
+    }
     public String getId() {
         return id;
     }
@@ -25,11 +24,11 @@ public class Broker {
         this.id = id;
     }
 
-    public List<Client> getClients() {
+    public Set<Client> getClients() {
         return clients;
     }
 
-    public void setClients(List<Client> clients) {
+    public void setClients(Set<Client> clients) {
         this.clients = clients;
     }
 
@@ -41,24 +40,14 @@ public class Broker {
         this.hashId = hashId;
     }
 
-    public List<Client> getLefts() {
-        return lefts;
-    }
-
-    public void setLefts(List<Client> lefts) {
-        this.lefts = lefts;
-    }
-
-    public List<Client> getRights() {
-        return rights;
-    }
-
-    public void setRights(List<Client> rights) {
-        this.rights = rights;
-    }
 
     @Override
     public String toString() {
         return id;
+    }
+
+    @Override
+    public int hashCode() {
+        return id==null?0:id.hashCode();
     }
 }
