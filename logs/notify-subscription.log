@@ -1,0 +1,406 @@
+2018-04-23 17:25:06,054 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:25:06,054 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:25:06,055 - Client environment:java.version=1.8.0_141
+2018-04-23 17:25:06,055 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:25:06,055 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:25:06,055 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:25:06,055 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:25:06,056 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:25:06,056 - Client environment:java.compiler=<NA>
+2018-04-23 17:25:06,056 - Client environment:os.name=Windows 7
+2018-04-23 17:25:06,056 - Client environment:os.arch=amd64
+2018-04-23 17:25:06,056 - Client environment:os.version=6.1
+2018-04-23 17:25:06,056 - Client environment:user.name=wangjin18
+2018-04-23 17:25:06,056 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:25:06,056 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:25:06,066 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@22d8cfe0
+2018-04-23 17:25:06,724 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:25:06,727 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:25:06,858 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60003, negotiated timeout = 4000
+2018-04-23 17:32:30,353 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:32:30,354 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:32:30,355 - Client environment:java.version=1.8.0_141
+2018-04-23 17:32:30,355 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:32:30,356 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:32:30,356 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:32:30,357 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:32:30,358 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:32:30,361 - Client environment:java.compiler=<NA>
+2018-04-23 17:32:30,361 - Client environment:os.name=Windows 7
+2018-04-23 17:32:30,361 - Client environment:os.arch=amd64
+2018-04-23 17:32:30,361 - Client environment:os.version=6.1
+2018-04-23 17:32:30,361 - Client environment:user.name=wangjin18
+2018-04-23 17:32:30,362 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:32:30,362 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:32:30,383 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@22d8cfe0
+2018-04-23 17:32:31,253 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:32:31,258 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:32:31,380 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60004, negotiated timeout = 4000
+2018-04-23 17:39:41,773 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:39:41,774 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:39:41,775 - Client environment:java.version=1.8.0_141
+2018-04-23 17:39:41,775 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:39:41,776 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:39:41,776 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:39:41,778 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:39:41,778 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:39:41,778 - Client environment:java.compiler=<NA>
+2018-04-23 17:39:41,778 - Client environment:os.name=Windows 7
+2018-04-23 17:39:41,778 - Client environment:os.arch=amd64
+2018-04-23 17:39:41,778 - Client environment:os.version=6.1
+2018-04-23 17:39:41,779 - Client environment:user.name=wangjin18
+2018-04-23 17:39:41,779 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:39:41,779 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:39:41,789 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@66c0a404
+2018-04-23 17:39:42,565 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:39:42,568 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:39:42,618 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60005, negotiated timeout = 4000
+2018-04-23 17:49:01,901 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:49:01,902 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:49:01,902 - Client environment:java.version=1.8.0_141
+2018-04-23 17:49:01,902 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:49:01,902 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:49:01,902 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:49:01,903 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:49:01,904 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:49:01,904 - Client environment:java.compiler=<NA>
+2018-04-23 17:49:01,904 - Client environment:os.name=Windows 7
+2018-04-23 17:49:01,904 - Client environment:os.arch=amd64
+2018-04-23 17:49:01,904 - Client environment:os.version=6.1
+2018-04-23 17:49:01,904 - Client environment:user.name=wangjin18
+2018-04-23 17:49:01,904 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:49:01,904 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:49:01,914 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@1d2a8742
+2018-04-23 17:49:02,648 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:57:20,835 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:57:20,836 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:57:20,836 - Client environment:java.version=1.8.0_141
+2018-04-23 17:57:20,836 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:57:20,836 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:57:20,836 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:57:20,837 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:57:20,838 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:57:20,838 - Client environment:java.compiler=<NA>
+2018-04-23 17:57:20,838 - Client environment:os.name=Windows 7
+2018-04-23 17:57:20,838 - Client environment:os.arch=amd64
+2018-04-23 17:57:20,838 - Client environment:os.version=6.1
+2018-04-23 17:57:20,838 - Client environment:user.name=wangjin18
+2018-04-23 17:57:20,839 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:57:20,839 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:57:20,841 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@22d8cfe0
+2018-04-23 17:57:21,730 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:57:21,734 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:57:22,094 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60006, negotiated timeout = 4000
+2018-04-23 17:58:31,956 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:58:31,957 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:58:31,957 - Client environment:java.version=1.8.0_141
+2018-04-23 17:58:31,957 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:58:31,957 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:58:31,957 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:58:31,957 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:58:31,957 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:58:31,957 - Client environment:java.compiler=<NA>
+2018-04-23 17:58:31,957 - Client environment:os.name=Windows 7
+2018-04-23 17:58:31,957 - Client environment:os.arch=amd64
+2018-04-23 17:58:31,957 - Client environment:os.version=6.1
+2018-04-23 17:58:31,957 - Client environment:user.name=wangjin18
+2018-04-23 17:58:31,958 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:58:31,958 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:58:31,959 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@277050dc
+2018-04-23 17:58:31,963 - zookeeper.disableAutoWatchReset is false
+2018-04-23 17:58:32,879 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:58:32,882 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:58:32,887 - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+2018-04-23 17:58:32,947 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60007, negotiated timeout = 4000
+2018-04-23 17:58:34,238 - Got ping response for sessionid: 0x10001a528c60007 after 7ms
+2018-04-23 17:58:35,571 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:36,905 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:38,239 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:39,584 - Got ping response for sessionid: 0x10001a528c60007 after 13ms
+2018-04-23 17:58:40,907 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:42,249 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:43,590 - Got ping response for sessionid: 0x10001a528c60007 after 8ms
+2018-04-23 17:58:44,921 - Got ping response for sessionid: 0x10001a528c60007 after 2ms
+2018-04-23 17:58:49,329 - Client environment:zookeeper.version=3.3.0-925362, built on 03/19/2010 18:38 GMT
+2018-04-23 17:58:49,330 - Client environment:host.name=ZB-PF0SC3ZV.360buyAD.local
+2018-04-23 17:58:49,330 - Client environment:java.version=1.8.0_141
+2018-04-23 17:58:49,330 - Client environment:java.vendor=Oracle Corporation
+2018-04-23 17:58:49,330 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_141\jre
+2018-04-23 17:58:49,331 - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;D:\workspace\deepinJava - 825\target\classes;C:\Users\wangjin18\.m2\repository\org\apache\commons\commons-pool2\2.2\commons-pool2-2.2.jar;C:\Users\wangjin18\.m2\repository\redis\clients\jedis\2.8.2\jedis-2.8.2.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wangjin18\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;C:\Users\wangjin18\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\wangjin18\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\wangjin18\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wangjin18\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\wangjin18\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wangjin18\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wangjin18\.m2\repository\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;C:\Users\wangjin18\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;C:\Users\wangjin18\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;C:\Users\wangjin18\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\wangjin18\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\wangjin18\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\wangjin18\.m2\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar;C:\Users\wangjin18\.m2\repository\org\apache\hadoop\zookeeper\3.3.0\zookeeper-3.3.0.jar;C:\Users\wangjin18\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Installment\IntelliJ IDEA Community Edition 14.1.4\lib\idea_rt.jar
+2018-04-23 17:58:49,333 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Touch Fingerprint Software\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Installment\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\maven\apache-maven-3.3.9\bin;D:\Installment\mysql-5.7.21\bin;;C:\Users\wangjin18\AppData\Local\Programs\Fiddler;.
+2018-04-23 17:58:49,333 - Client environment:java.io.tmpdir=C:\Users\WANGJI~1\AppData\Local\Temp\
+2018-04-23 17:58:49,333 - Client environment:java.compiler=<NA>
+2018-04-23 17:58:49,333 - Client environment:os.name=Windows 7
+2018-04-23 17:58:49,333 - Client environment:os.arch=amd64
+2018-04-23 17:58:49,333 - Client environment:os.version=6.1
+2018-04-23 17:58:49,333 - Client environment:user.name=wangjin18
+2018-04-23 17:58:49,333 - Client environment:user.home=C:\Users\wangjin18
+2018-04-23 17:58:49,333 - Client environment:user.dir=D:\workspace\deepinJava - 825
+2018-04-23 17:58:49,335 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=com.ustbcafe.deepin.systems.mq.ZKClient@277050dc
+2018-04-23 17:58:49,341 - zookeeper.disableAutoWatchReset is false
+2018-04-23 17:58:50,420 - Opening socket connection to server /127.0.0.1:2181
+2018-04-23 17:58:50,423 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-04-23 17:58:50,427 - Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+2018-04-23 17:58:50,567 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10001a528c60008, negotiated timeout = 4000
+2018-04-23 17:58:51,776 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 17:58:53,130 - Got ping response for sessionid: 0x10001a528c60008 after 23ms
+2018-04-23 17:58:54,448 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 17:58:55,790 - Got ping response for sessionid: 0x10001a528c60008 after 14ms
+2018-04-23 17:58:57,117 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:58:58,451 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:58:59,793 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:01,135 - Got ping response for sessionid: 0x10001a528c60008 after 9ms
+2018-04-23 17:59:02,467 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:03,801 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 17:59:05,135 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:06,491 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 17:59:07,821 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 17:59:09,154 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:10,487 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:11,863 - Got ping response for sessionid: 0x10001a528c60008 after 44ms
+2018-04-23 17:59:13,174 - Got ping response for sessionid: 0x10001a528c60008 after 19ms
+2018-04-23 17:59:14,501 - Got ping response for sessionid: 0x10001a528c60008 after 13ms
+2018-04-23 17:59:15,851 - Got ping response for sessionid: 0x10001a528c60008 after 23ms
+2018-04-23 17:59:17,179 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 17:59:18,504 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:19,837 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:21,179 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 17:59:22,510 - Got ping response for sessionid: 0x10001a528c60008 after 9ms
+2018-04-23 17:59:23,851 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 17:59:25,180 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:26,515 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:27,855 - Got ping response for sessionid: 0x10001a528c60008 after 9ms
+2018-04-23 17:59:29,188 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 17:59:30,520 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:31,872 - Got ping response for sessionid: 0x10001a528c60008 after 20ms
+2018-04-23 17:59:33,199 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 17:59:34,532 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 17:59:35,866 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:37,199 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:38,533 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:39,868 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:41,215 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 17:59:42,545 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 17:59:43,878 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:45,223 - Got ping response for sessionid: 0x10001a528c60008 after 12ms
+2018-04-23 17:59:46,552 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 17:59:47,884 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 17:59:49,217 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:50,560 - Got ping response for sessionid: 0x10001a528c60008 after 12ms
+2018-04-23 17:59:51,883 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 17:59:53,218 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 17:59:54,561 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 17:59:55,894 - Got ping response for sessionid: 0x10001a528c60008 after 10ms
+2018-04-23 17:59:57,229 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 17:59:58,561 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 17:59:59,894 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:01,228 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:02,569 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:00:03,902 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:00:05,235 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:06,574 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:00:07,909 - Got ping response for sessionid: 0x10001a528c60008 after 10ms
+2018-04-23 18:00:09,237 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:10,571 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:11,913 - Got ping response for sessionid: 0x10001a528c60008 after 10ms
+2018-04-23 18:00:13,242 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:00:14,582 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:00:15,924 - Got ping response for sessionid: 0x10001a528c60008 after 16ms
+2018-04-23 18:00:17,244 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:18,577 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:19,909 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:00:21,251 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:22,587 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:00:23,919 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:25,259 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:00:26,599 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 18:00:27,924 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:29,258 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:30,592 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:31,926 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:00:33,261 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:34,595 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:35,939 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 18:00:37,268 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:00:38,599 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:39,934 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:41,268 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:42,602 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:43,943 - Got ping response for sessionid: 0x10001a528c60008 after 10ms
+2018-04-23 18:00:45,268 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:46,604 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:47,939 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:00:49,272 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:50,606 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:51,940 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:53,273 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:54,607 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:00:55,942 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:57,276 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:00:58,614 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:00:59,945 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:01:01,282 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:01:02,612 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:03,949 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:05,280 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:06,617 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:07,955 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:01:09,288 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:10,622 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:01:11,955 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:13,292 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:14,628 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:01:15,961 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:17,321 - Got ping response for sessionid: 0x10001a528c60008 after 23ms
+2018-04-23 18:01:18,634 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:01:19,970 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:01:21,355 - Got ping response for sessionid: 0x10001a528c60008 after 51ms
+2018-04-23 18:01:22,641 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:23,984 - Got ping response for sessionid: 0x10001a528c60008 after 12ms
+2018-04-23 18:01:25,309 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:26,647 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:27,978 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:29,329 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:30,659 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:31,997 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:33,330 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:34,660 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:01:35,998 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:01:37,332 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:38,667 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:40,001 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:41,334 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:42,678 - Got ping response for sessionid: 0x10001a528c60008 after 12ms
+2018-04-23 18:01:44,012 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 18:01:45,351 - Got ping response for sessionid: 0x10001a528c60008 after 10ms
+2018-04-23 18:01:46,677 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:48,015 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:01:49,345 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:50,680 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:52,014 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:01:53,347 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:54,683 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:01:56,015 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:01:57,347 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:01:58,683 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:00,029 - Got ping response for sessionid: 0x10001a528c60008 after 16ms
+2018-04-23 18:02:01,350 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:02,685 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:04,018 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:05,351 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:06,704 - Got ping response for sessionid: 0x10001a528c60008 after 21ms
+2018-04-23 18:02:08,019 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:09,354 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:10,691 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:02:12,021 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:13,352 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:02:14,691 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:02:16,026 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:17,361 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:18,693 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:02:20,030 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:21,408 - Got ping response for sessionid: 0x10001a528c60008 after 44ms
+2018-04-23 18:02:22,699 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:02:24,079 - Got ping response for sessionid: 0x10001a528c60008 after 44ms
+2018-04-23 18:02:25,371 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:02:26,722 - Got ping response for sessionid: 0x10001a528c60008 after 12ms
+2018-04-23 18:02:28,068 - Got ping response for sessionid: 0x10001a528c60008 after 21ms
+2018-04-23 18:02:29,390 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 18:02:30,720 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:02:32,052 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:33,388 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:34,718 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:36,061 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:02:37,395 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:38,728 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:40,065 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:41,399 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:42,743 - Got ping response for sessionid: 0x10001a528c60008 after 9ms
+2018-04-23 18:02:44,090 - Got ping response for sessionid: 0x10001a528c60008 after 18ms
+2018-04-23 18:02:45,411 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:46,743 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:48,079 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:02:49,409 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:50,748 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:02:52,094 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 18:02:53,421 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:54,755 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:02:56,088 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:02:57,427 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:02:58,757 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:00,088 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:01,424 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:02,759 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:03:04,092 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:05,431 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:03:06,763 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:03:08,098 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:03:09,448 - Got ping response for sessionid: 0x10001a528c60008 after 19ms
+2018-04-23 18:03:10,765 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:12,098 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:13,442 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 18:03:14,772 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 18:03:16,100 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:17,433 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:18,766 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:20,099 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:21,438 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:03:22,781 - Got ping response for sessionid: 0x10001a528c60008 after 14ms
+2018-04-23 18:03:24,162 - Got ping response for sessionid: 0x10001a528c60008 after 59ms
+2018-04-23 18:03:25,439 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:26,771 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:28,105 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:29,443 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:03:30,774 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:32,110 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:33,444 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:34,797 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:03:36,127 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:37,461 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:38,801 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:03:40,132 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:41,466 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:42,800 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:44,134 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:45,468 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:46,799 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:48,132 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:49,471 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:50,811 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:03:52,142 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:53,473 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:03:54,811 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:03:56,144 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:03:57,479 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:03:58,814 - Got ping response for sessionid: 0x10001a528c60008 after 5ms
+2018-04-23 18:04:00,145 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:04:01,489 - Got ping response for sessionid: 0x10001a528c60008 after 11ms
+2018-04-23 18:04:02,823 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 18:04:04,162 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:04:05,496 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:04:06,826 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:08,159 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:09,499 - Got ping response for sessionid: 0x10001a528c60008 after 7ms
+2018-04-23 18:04:10,826 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:12,161 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:13,494 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:14,841 - Got ping response for sessionid: 0x10001a528c60008 after 14ms
+2018-04-23 18:04:16,162 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:17,565 - Got ping response for sessionid: 0x10001a528c60008 after 71ms
+2018-04-23 18:04:18,832 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:04:20,170 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:04:21,596 - Got ping response for sessionid: 0x10001a528c60008 after 36ms
+2018-04-23 18:04:22,899 - Got ping response for sessionid: 0x10001a528c60008 after 6ms
+2018-04-23 18:04:24,232 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:04:25,566 - Got ping response for sessionid: 0x10001a528c60008 after 3ms
+2018-04-23 18:04:26,898 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:04:28,231 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:29,565 - Got ping response for sessionid: 0x10001a528c60008 after 2ms
+2018-04-23 18:04:30,904 - Got ping response for sessionid: 0x10001a528c60008 after 8ms
+2018-04-23 18:04:32,236 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:04:33,593 - Got ping response for sessionid: 0x10001a528c60008 after 23ms
+2018-04-23 18:04:34,904 - Got ping response for sessionid: 0x10001a528c60008 after 1ms
+2018-04-23 18:04:36,244 - Got ping response for sessionid: 0x10001a528c60008 after 4ms
+2018-04-23 18:04:37,603 - Got ping response for sessionid: 0x10001a528c60008 after 19ms
+2018-04-23 18:04:38,934 - Got ping response for sessionid: 0x10001a528c60008 after 17ms
+2018-04-23 18:04:40,254 - Got ping response for sessionid: 0x10001a528c60008 after 2ms

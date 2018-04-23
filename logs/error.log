@@ -1,0 +1,8 @@
+2018-04-23 20:00:18  [ main-EventThread:989 ] - [ ERROR ]  Error while calling watcher 
+java.lang.IllegalArgumentException: Path must start with / character
+	at org.apache.zookeeper.common.PathUtils.validatePath(PathUtils.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:903)
+	at com.ustbcafe.deepin.systems.mq.ZKClient.getData(ZKClient.java:73)
+	at com.ustbcafe.deepin.systems.mq.PathListener.connected(PathListener.java:23)
+	at com.ustbcafe.deepin.systems.mq.ZKClient.process(ZKClient.java:62)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:488)
