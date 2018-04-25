@@ -21,7 +21,7 @@ public class ZKClient implements Watcher{
     private int connectionTimeout=3000;
     List<ConnectionListener> connectionListeners=new ArrayList<>();
     public static void main(String[] args){
-        String address="127.0.0.1:2181";
+        String address="192.168.179.66:2181";
         String path="/topic";
         ZKClient     zkClient=new ZKClient(address);
         PathListener pathListener=new PathListener(zkClient,path);
@@ -58,6 +58,11 @@ public class ZKClient implements Watcher{
                 for(ConnectionListener c:connectionListeners){
                     c.connected();
                 }
+            case Disconnected:
+                logger.info("disconnected");
+                break;
+            case Expired:
+                logger.info("expired");
                 break;
             default:
                 logger.info("event state: " + event.getState().getIntValue());
@@ -76,10 +81,21 @@ public class ZKClient implements Watcher{
       return null;
   }
 
-  public String createData(String path,byte[] value){
+  public String create(String path,byte[] value){
       try {
         return  zk.create(path, value, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
       }catch(InterruptedException e){
+          e.printStackTrace();
+      }catch (KeeperException e){
+          e.printStackTrace();
+      }
+      return null;
+  }
+
+  public Stat exist(String path){
+      try {
+          return zk.exists(path, false);
+      }catch (InterruptedException e){
           e.printStackTrace();
       }catch (KeeperException e){
           e.printStackTrace();

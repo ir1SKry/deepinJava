@@ -20,17 +20,33 @@ public class PathListener implements ConnectionListener {
     }
     @Override
     public void connected() {
-        zkClient.createData(path,"wangjin".getBytes());
-        byte[] value=  zkClient.getData(path,updateWatcher);
-        if(value!=null){
-            logger.info("path value:"+new String(value));
-        }
+        if(zkClient.exist(path)==null) {
+            logger.info(String.format("path: %s not exist,create",path));
+            zkClient.create(path, "init path value".getBytes());
+        }else show();
     }
 
     public class UpdateWatcher implements Watcher {
         @Override
         public void process(WatchedEvent event) {
-            event.getPath();
+            switch (event.getType()){
+                case NodeDataChanged:
+                    show();
+                   break;
+                case NodeDeleted:
+                    break;
+                case NodeChildrenChanged:
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    public void show(){
+
+        byte[] value=  zkClient.getData(path,updateWatcher);
+        if(value!=null){
+            logger.info("path value:"+new String(value));
         }
     }
 }
