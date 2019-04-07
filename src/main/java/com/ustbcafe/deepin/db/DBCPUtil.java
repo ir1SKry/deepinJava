@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * Created by wangjin18 on 2017/12/13.
  *
- *  建立一个连接池大约花费2s
+ *
  */
 public class DBCPUtil {
     private static Properties properties = new Properties();
@@ -30,7 +30,7 @@ public class DBCPUtil {
                          e.printStackTrace();
                      }
              }
-            //从连接池中获取一个连接
+            //锟斤拷锟斤拷锟接筹拷锟叫伙拷取一锟斤拷锟斤拷锟斤拷
            public static Connection getConnection() {
                Connection connection = null;
                try {

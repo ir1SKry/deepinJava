@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by wangjin18 on 2017/8/29.
- * n的全排列 的回溯算法
+ *
  */
 public class Narray {
     public static void main(String[] args){

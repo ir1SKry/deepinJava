@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5fb2f3a-4660-4d0f-98f6-618177753bb9" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Quick3Way.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RabinKarp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RandomPrime.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java" afterDir="false" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deepin.iml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/tree/Narray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/tree/Narray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/db/DBCPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/db/DBCPUtil.java" afterDir="false" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     </list>
     <ignored path="deepinJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +47,7 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
+<<<<<<< HEAD
     <session id="929681596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
@@ -48,30 +59,55 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="6" />
+=======
+    <session id="1439681197">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="12" />
+<<<<<<< HEAD
           <entry key="scala" value="1" />
+=======
+          <entry key="xml" value="1" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="12" />
+<<<<<<< HEAD
           <entry key="Scala" value="1" />
+=======
+          <entry key="XML" value="1" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="java" value="571" />
           <entry key="scala" value="97" />
+=======
+          <entry key="java" value="949" />
+          <entry key="xml" value="4" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="571" />
           <entry key="Scala" value="97" />
+=======
+          <entry key="JAVA" value="949" />
+          <entry key="XML" value="4" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </counts>
       </usages-collector>
     </session>
@@ -82,78 +118,162 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/KMP.java">
+=======
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RabinKarp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="466">
+              <caret line="129" column="12" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/KMP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Super.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RabinKarp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Sub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RandomPrime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/distribution/Cauchy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Quick3Way.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/aspectj/MonitorAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/SortUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/AnnotationOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/Monitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/application/MessageSortAndStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -167,6 +287,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </state>
           </provider>
         </entry>
@@ -185,6 +311,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.aspectj</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -194,6 +325,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/distribution/Cauchy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyProxy.java" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/base/Bits.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ustbcafe/deepin/proxy/ProxyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ustbcafe/deepin/utils/CollectionTest.java" />
@@ -232,7 +368,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/virtual/BoundedMurmurHash.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ustbcafe/deepin/algorithms/AllocationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/ConnectionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/ZKClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/PathListener.java" />
@@ -240,11 +375,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/concurrent/EventBus.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/ThreeWayQuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Quick3Way.java" />
         <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RabinKarp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/match/RandomPrime.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/tree/Narray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/db/DBCPUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       </list>
     </option>
   </component>
@@ -259,12 +401,23 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+<<<<<<< HEAD
+=======
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
           <item name="deepin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="deepin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+<<<<<<< HEAD
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+=======
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </path>
       </expand>
       <select />
@@ -274,10 +427,17 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="642" />
     <option name="y" value="95" />
     <option name="width" value="1673" />
     <option name="height" value="985" />
+=======
+    <option name="x" value="36" />
+    <option name="y" value="29" />
+    <option name="width" value="1673" />
+    <option name="height" value="982" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -299,13 +459,30 @@
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
@@ -313,6 +490,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
@@ -321,6 +502,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="deepin" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
@@ -330,16 +515,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="deepin" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deepin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="string" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
@@ -349,6 +528,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="deepin" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="string" type="462c0819:PsiDirectoryNode" />
               <item name="match" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -371,11 +551,27 @@
             <path>
               <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,7 +585,11 @@
     <property name="SearchEverywhereHistoryKey" value="hiera&#9;ACTION&#9;ActivateHierarchyToolWindow&#10;hierarchy&#9;ACTION&#9;ActivateHierarchyToolWindow&#10;hier&#9;ACTION&#9;TypeHierarchy.Class&#10;hi&#9;ACTION&#9;ActivateHierarchyToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554631962280" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554179758232" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="E:\Installment\node.js\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -432,7 +632,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Scala Console.Scala Console">
+=======
+  <component name="RunManager" selected="Application.IntervalMerge">
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -480,13 +684,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="LoadBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.allocate.LoadBalance" />
+=======
+    <configuration name="IntervalMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.collection.IntervalMerge" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <module name="deepin" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.allocate.*" />
+=======
+          <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.collection.*" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -494,13 +707,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.nio.NettyClient" />
+=======
+    <configuration name="LoadBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.allocate.LoadBalance" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <module name="deepin" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="com.ustbcafe.deepin.nio.*" />
+=======
+          <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.allocate.*" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -508,8 +730,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.nio.NettyServer" />
+=======
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.nio.NettyClient" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <module name="deepin" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -522,6 +749,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="ZKClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.systems.mq.ZKClient" />
+=======
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.nio.NettyServer" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+      <module name="deepin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+<<<<<<< HEAD
+          <option name="PATTERN" value="com.ustbcafe.deepin.systems.mq.*" />
+=======
+          <option name="PATTERN" value="com.ustbcafe.deepin.nio.*" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
     <configuration name="ZKClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.systems.mq.ZKClient" />
       <module name="deepin" />
@@ -532,27 +786,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+=======
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
       <module name="deepin" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="consoleArgs" value="-usejavacp" />
+=======
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -579,11 +838,19 @@
       <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.LoadBalance" />
       <item itemvalue="Application.ZKClient" />
+<<<<<<< HEAD
       <item itemvalue="Scala Console.Scala Console" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Scala Console.Scala Console" />
+=======
+      <item itemvalue="Application.IntervalMerge" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntervalMerge" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         <item itemvalue="Application.ZKClient" />
         <item itemvalue="Application.LoadBalance" />
         <item itemvalue="Application.NettyClient" />
@@ -748,12 +1015,16 @@
       <workItem from="1511692272479" duration="540000" />
       <workItem from="1521877618860" duration="26417000" />
       <workItem from="1522245296131" duration="5444000" />
+<<<<<<< HEAD
       <workItem from="1544258423172" duration="3613000" />
       <workItem from="1545226827566" duration="602000" />
       <workItem from="1545230091736" duration="296000" />
       <workItem from="1545230408298" duration="13000" />
       <workItem from="1545230440846" duration="812000" />
       <workItem from="1554610628085" duration="1341000" />
+=======
+      <workItem from="1554176831295" duration="3156000" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     </task>
     <servers />
   </component>
@@ -790,7 +1061,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1036655000" />
+=======
+    <option name="totallyTimeSpent" value="1033134000" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,15 +1077,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="642" y="95" width="1673" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2667486" />
+=======
+    <frame x="36" y="29" width="1673" height="982" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2507664" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+<<<<<<< HEAD
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5064935" />
@@ -826,6 +1109,24 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="JProfiler" order="13" />
+=======
+      <window_info anchor="bottom" id="Duplication Code Results" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="风险组件扫描" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5064935" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3516854" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41348314" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.39554796" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.53258425" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="right" id="Theme Preview" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -833,8 +1134,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Database" order="6" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.11923786" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+=======
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.11955855" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,6 +1261,18 @@
           <properties />
           <option name="timeStamp" value="220" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/string/Solution.java</url>
           <line>50</line>
@@ -982,6 +1299,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/search/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1094,7 +1428,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0.jar!/org/apache/zookeeper/ZooKeeper.class" />
+=======
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0.jar!/org/apache/zookeeper/ZooKeeper.class" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ustbcafe/deepin/algorithms/AllocationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1102,7 +1440,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+=======
+    <entry file="file://$USER_HOME$/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/notify-subscription.log">
@@ -1111,30 +1453,70 @@
           <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/lang/JDK8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-        </state>
-      </provider>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+<<<<<<< HEAD
+          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
+=======
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/ConnectionListener.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+<<<<<<< HEAD
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+=======
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0-sources.jar!/org/apache/zookeeper/WatchedEvent.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0-sources.jar!/org/apache/zookeeper/Watcher.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0-sources.jar!/org/apache/zookeeper/KeeperException.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hadoop/zookeeper/3.3.0/zookeeper-3.3.0-sources.jar!/org/apache/zookeeper/ZooKeeper.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ConcurrentSkipListSet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/BlockingQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/ZKClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+=======
+        <state relative-caret-position="795">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+=======
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
@@ -1185,11 +1567,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/PathListener.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/systems/mq/concurrent/EventBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/tree/Narray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/db/DBCPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="250">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
@@ -1208,10 +1633,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
+=======
+        <state relative-caret-position="105">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/lang/JDK8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/distribution/Cauchy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -1286,6 +1733,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Sub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/aspectj/MonitorAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/AnnotationOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="129" column="12" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+>>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
         </state>
       </provider>
     </entry>
@@ -1318,7 +1844,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6.0a1 (E:\Installment\Python\python.exe) interpreter library</last-edited>
+          <last-edited>scala-sdk-2.12.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
