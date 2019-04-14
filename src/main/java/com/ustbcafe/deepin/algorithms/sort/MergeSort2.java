@@ -9,7 +9,7 @@ public class MergeSort2 {
     public  int[] mergeSort(int[] A, int n) {
         // write code here
 
-        //·ÇµÝ¹é
+        //ï¿½ÇµÝ¹ï¿½
         aux=new int[n];
         int len=1;
         while(len<n ){
@@ -19,15 +19,14 @@ public class MergeSort2 {
             len*=2;
         }
 
-       // µÝ¹é
+       // ï¿½Ý¹ï¿½
        // recursiveMergeSort(A,0,n/2,n);
 
         return A;
     }
-    /**
-     *  µÝ¹é¹é²¢ÅÅÐò
-     *  @hi
-     **/
+
+
+
     public void recursiveMergeSort(int[] A,int lo, int mid,int hi){
         if(lo==mid)
             return ;

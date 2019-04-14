@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-=======
+
   <component name="IvyProjectSettings">
     <dependencies />
   </component>
->>>>>>> 03ba3b28ad77ce3013f8e315441449ae97bdd10d
+
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

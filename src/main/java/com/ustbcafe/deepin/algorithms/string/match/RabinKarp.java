@@ -2,13 +2,14 @@ package com.ustbcafe.deepin.algorithms.string.match;
 
 public class RabinKarp {
   /**
-   * @param source:
-   * @param target:
+   * @param s:
+   * @param t:
    * @return: return the index
    */
   public int strStr(String s, String t) {
     // Write your code here
     // Write your code here
+    // big prime
     long Q=3947;
     long R=256;
     int txtLen=s.length();
