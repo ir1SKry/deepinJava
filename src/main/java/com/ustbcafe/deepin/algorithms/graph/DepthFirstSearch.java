@@ -2,11 +2,11 @@ package com.ustbcafe.deepin.algorithms.graph;
 
 import java.util.Scanner;
 
-public class DeepFirstSearch {
+public class DepthFirstSearch {
 
   private boolean[] marked;
   private int count=0;
-  public DeepFirstSearch(Graph G, int s){
+  public DepthFirstSearch(Graph G, int s){
        this.marked=new boolean[G.Vertex()];
        dfs(G,s);
   }
@@ -18,6 +18,10 @@ public class DeepFirstSearch {
       if(!marked[w])dfs(G,w);
     }
   }
+
+  /**
+   * 起点与给定点是否连通
+   **/
   public  boolean marked(int v){
     return marked[v];
   }
@@ -31,19 +35,9 @@ public class DeepFirstSearch {
 
   public static void main(String[] args){
     Scanner in=new Scanner(System.in);
-    int V=in.nextInt();
-    int E=in.nextInt();
-    in.nextLine();
-    Graph graph=new Graph(V);
-    for(int i=0;i<E;i++){
-     String line= in.nextLine();
-     String[] edge=line.split(" ");
-     if(edge.length>=2){
-       graph.addEdge(Integer.parseInt(edge[0]),Integer.parseInt(edge[1]));
-     }
-    }
+    Graph graph=GraphUtil.read(in);
     int s=in.nextInt();
-    DeepFirstSearch search=new DeepFirstSearch(graph,s);
+    DepthFirstSearch search=new DepthFirstSearch(graph,s);
     for(int v=0;v<graph.Vertex();v++){
         if(search.marked(v)){
           System.out.print(v+" ");
