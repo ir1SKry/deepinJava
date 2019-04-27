@@ -12,7 +12,7 @@ public class IntervalMerge {
 
     public List<Interval> merge(List<Interval> intervals){
 
-        int [] starts=new int[intervals.size()];
+        int[] starts=new int[intervals.size()];
         int[] ends=new int[intervals.size()];
         for(int i=0;i<intervals.size();i++){
             starts[i]=intervals.get(i).start;
@@ -36,7 +36,7 @@ public class IntervalMerge {
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt(); //
         scanner.nextLine();
-        System.out.println("please input "+n+" interval,split by ,");
+        System.out.println("please input "+n+" interval,split by `,`");
         List<Interval> intervals=new ArrayList<>();
         for(int i=0;i<n;i++){
           String interval=  scanner.nextLine();
