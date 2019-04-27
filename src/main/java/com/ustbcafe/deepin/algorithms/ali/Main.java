@@ -4,11 +4,7 @@ package com.ustbcafe.deepin.algorithms.ali;
  * Created by Rudy Steiner on 2017/8/12.
  */
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Main {
 

@@ -1,6 +1,969 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e5b45e-2550-4c34-9f61-b4e1d948318f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDepthFirstOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/KosarajuSCC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/ali/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/ali/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/GraphUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/GraphUtil.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1439681197">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="27" />
+          <entry key="scala" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="27" />
+          <entry key="Scala" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3390" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3390" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="deepinJava" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/Digraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/KosarajuSCC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDepthFirstOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+              <folding>
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="152" column="36" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DepthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/ali/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/nio/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/GraphUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDepthFirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/KosarajuSCC.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="deepin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="deepin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="26" />
+    <option name="y" value="23" />
+    <option name="width" value="1673" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="ali" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="ali" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="integer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deepin" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="main.scala" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterable" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="deepinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556379433538" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.KosarajuSCC">
+    <configuration name="DirectedCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.graph.DirectedCycle" />
+      <module name="deepin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectedDepthFirstOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.graph.DirectedDepthFirstOrder" />
+      <module name="deepin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KosarajuSCC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustbcafe.deepin.algorithms.graph.KosarajuSCC" />
+      <module name="deepin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustbcafe.deepin.algorithms.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DirectedCycle" />
+      <item itemvalue="Application.DirectedDepthFirstOrder" />
+      <item itemvalue="Application.KosarajuSCC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KosarajuSCC" />
+        <item itemvalue="Application.DirectedDepthFirstOrder" />
+        <item itemvalue="Application.DirectedCycle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5fb2f3a-4660-4d0f-98f6-618177753bb9" name="Default" comment="" />
+      <created>1482458545463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482458545463</updated>
+      <workItem from="1482458548174" duration="43575000" />
+      <workItem from="1482557146384" duration="1552000" />
+      <workItem from="1482559842000" duration="410000" />
+      <workItem from="1482560342437" duration="21667000" />
+      <workItem from="1482633303355" duration="663000" />
+      <workItem from="1482635817235" duration="16860000" />
+      <workItem from="1482716200431" duration="19690000" />
+      <workItem from="1482802584289" duration="14810000" />
+      <workItem from="1482892718769" duration="43490000" />
+      <workItem from="1483164621473" duration="17106000" />
+      <workItem from="1483197594798" duration="3762000" />
+      <workItem from="1483236690128" duration="27098000" />
+      <workItem from="1483324513430" duration="19034000" />
+      <workItem from="1483529491967" duration="9677000" />
+      <workItem from="1483627410194" duration="1958000" />
+      <workItem from="1483705146657" duration="9529000" />
+      <workItem from="1483756918619" duration="621000" />
+      <workItem from="1483851384180" duration="8346000" />
+      <workItem from="1483929221684" duration="708000" />
+      <workItem from="1483934991643" duration="2941000" />
+      <workItem from="1483972671682" duration="1023000" />
+      <workItem from="1484057462795" duration="1444000" />
+      <workItem from="1484104893981" duration="2022000" />
+      <workItem from="1484188401889" duration="2236000" />
+      <workItem from="1484308298164" duration="1293000" />
+      <workItem from="1484379482455" duration="1217000" />
+      <workItem from="1484447677111" duration="2409000" />
+      <workItem from="1486561895191" duration="718000" />
+      <workItem from="1486637876425" duration="4121000" />
+      <workItem from="1486690757009" duration="648000" />
+      <workItem from="1486775926169" duration="10384000" />
+      <workItem from="1486876780259" duration="3670000" />
+      <workItem from="1486967558431" duration="3749000" />
+      <workItem from="1487037538103" duration="11326000" />
+      <workItem from="1487121128144" duration="1651000" />
+      <workItem from="1487207607418" duration="3999000" />
+      <workItem from="1487296599629" duration="3727000" />
+      <workItem from="1487388440020" duration="1692000" />
+      <workItem from="1487560045369" duration="25639000" />
+      <workItem from="1487642264556" duration="642000" />
+      <workItem from="1487726531035" duration="8313000" />
+      <workItem from="1487778260163" duration="2771000" />
+      <workItem from="1487809865536" duration="32576000" />
+      <workItem from="1487904699766" duration="24474000" />
+      <workItem from="1488017242640" duration="11693000" />
+      <workItem from="1488121608610" duration="2175000" />
+      <workItem from="1488175940629" duration="9081000" />
+      <workItem from="1488254551505" duration="11222000" />
+      <workItem from="1488420726711" duration="4031000" />
+      <workItem from="1488523884887" duration="639000" />
+      <workItem from="1488594215021" duration="2521000" />
+      <workItem from="1488721875751" duration="1269000" />
+      <workItem from="1488767520492" duration="2192000" />
+      <workItem from="1488792524684" duration="4549000" />
+      <workItem from="1488859243292" duration="7528000" />
+      <workItem from="1488936346132" duration="25636000" />
+      <workItem from="1489038650678" duration="6622000" />
+      <workItem from="1489194883198" duration="11778000" />
+      <workItem from="1489284026952" duration="43870000" />
+      <workItem from="1489372697293" duration="3130000" />
+      <workItem from="1489402606213" duration="5350000" />
+      <workItem from="1489458041917" duration="1232000" />
+      <workItem from="1489542021099" duration="4536000" />
+      <workItem from="1489640500673" duration="1293000" />
+      <workItem from="1489756713139" duration="9660000" />
+      <workItem from="1489803135490" duration="11260000" />
+      <workItem from="1489900738169" duration="15098000" />
+      <workItem from="1490019974610" duration="4170000" />
+      <workItem from="1490084296228" duration="2473000" />
+      <workItem from="1490160281663" duration="1600000" />
+      <workItem from="1490273595319" duration="7997000" />
+      <workItem from="1490322178942" duration="39797000" />
+      <workItem from="1490411603298" duration="8862000" />
+      <workItem from="1490442154279" duration="622000" />
+      <workItem from="1490536779101" duration="815000" />
+      <workItem from="1490610695710" duration="634000" />
+      <workItem from="1490690659444" duration="17378000" />
+      <workItem from="1490771274811" duration="686000" />
+      <workItem from="1490778377394" duration="9476000" />
+      <workItem from="1490875088622" duration="1990000" />
+      <workItem from="1490927505422" duration="9774000" />
+      <workItem from="1491134516935" duration="7463000" />
+      <workItem from="1491373894861" duration="2129000" />
+      <workItem from="1491402130546" duration="6738000" />
+      <workItem from="1491460935181" duration="12583000" />
+      <workItem from="1491556105614" duration="625000" />
+      <workItem from="1491560873401" duration="4946000" />
+      <workItem from="1491613871042" duration="10774000" />
+      <workItem from="1491642295028" duration="3319000" />
+      <workItem from="1491739165861" duration="1511000" />
+      <workItem from="1491973932245" duration="9499000" />
+      <workItem from="1492065755424" duration="666000" />
+      <workItem from="1493207593940" duration="5276000" />
+      <workItem from="1493262033693" duration="2717000" />
+      <workItem from="1493433439463" duration="205000" />
+      <workItem from="1493645423386" duration="6979000" />
+      <workItem from="1493812473793" duration="8278000" />
+      <workItem from="1493884977703" duration="84000" />
+      <workItem from="1493885179850" duration="8070000" />
+      <workItem from="1493901556025" duration="8096000" />
+      <workItem from="1493968192013" duration="9575000" />
+      <workItem from="1493990244613" duration="798000" />
+      <workItem from="1494049248386" duration="2888000" />
+      <workItem from="1494126668064" duration="1413000" />
+      <workItem from="1494253811775" duration="127000" />
+      <workItem from="1494294885586" duration="650000" />
+      <workItem from="1494337797583" duration="654000" />
+      <workItem from="1494400037097" duration="3762000" />
+      <workItem from="1494425672946" duration="629000" />
+      <workItem from="1494471557657" duration="4298000" />
+      <workItem from="1494509558834" duration="6856000" />
+      <workItem from="1494556425843" duration="12427000" />
+      <workItem from="1494656805170" duration="41000" />
+      <workItem from="1494992012008" duration="1353000" />
+      <workItem from="1495195222793" duration="2492000" />
+      <workItem from="1496499929971" duration="1484000" />
+      <workItem from="1496543430060" duration="1808000" />
+      <workItem from="1496641813252" duration="625000" />
+      <workItem from="1498783690154" duration="592000" />
+      <workItem from="1498786289732" duration="1302000" />
+      <workItem from="1498800810746" duration="4551000" />
+      <workItem from="1498830861456" duration="1429000" />
+      <workItem from="1498908808471" duration="8895000" />
+      <workItem from="1498974982348" duration="24263000" />
+      <workItem from="1499086576649" duration="3175000" />
+      <workItem from="1499133250631" duration="52000" />
+      <workItem from="1501053878749" duration="8194000" />
+      <workItem from="1501118921711" duration="12339000" />
+      <workItem from="1502187659989" duration="1204000" />
+      <workItem from="1502413931363" duration="9803000" />
+      <workItem from="1502673840822" duration="65000" />
+      <workItem from="1502786446176" duration="5595000" />
+      <workItem from="1503385622685" duration="9009000" />
+      <workItem from="1503557802601" duration="6191000" />
+      <workItem from="1503643866193" duration="174000" />
+      <workItem from="1503716400722" duration="15297000" />
+      <workItem from="1503812221748" duration="1290000" />
+      <workItem from="1504945132036" duration="1771000" />
+      <workItem from="1505738529638" duration="1633000" />
+      <workItem from="1505746857498" duration="616000" />
+      <workItem from="1509084994700" duration="1027000" />
+      <workItem from="1509089351258" duration="888000" />
+      <workItem from="1509710469415" duration="5206000" />
+      <workItem from="1510161117461" duration="18000" />
+      <workItem from="1511692272479" duration="540000" />
+      <workItem from="1521877618860" duration="26417000" />
+      <workItem from="1522245296131" duration="5444000" />
+      <workItem from="1554176831295" duration="5417000" />
+      <workItem from="1556334284995" duration="11056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1046451000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="7" y="23" width="1673" height="985" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2035561" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Palette&#9;" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5064935" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32474804" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5699888" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.39554796" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5319149" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplication Code Results" order="13" />
+      <window_info anchor="bottom" id="风险组件扫描" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24954017" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.17167382" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedCycle.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="12" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/collection/IntervalMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/ali/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/Sub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/distribution/Cauchy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/aspectj/MonitorAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/nio/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/AnnotationOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/proxy/MyProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/GraphUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="152" column="36" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ustbcafe/deepin/algorithms/graph/KosarajuSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
