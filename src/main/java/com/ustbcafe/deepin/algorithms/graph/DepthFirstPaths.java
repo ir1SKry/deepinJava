@@ -51,8 +51,8 @@ public class DepthFirstPaths implements Paths {
   public static void main(String[] args){
 
     Scanner in=new Scanner(System.in);
-    Graph graph=GraphUtil.read(in);
-    int s=in.nextInt();
+    Graph graph = GraphUtil.read(in);
+    int s = in.nextInt();
     Paths paths=new BreadFirstPaths(graph,s);
     for(int v=0;v<graph.Vertex();v++){
       System.out.print(s +" to "+v+":" );
